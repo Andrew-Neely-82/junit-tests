@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cohort {
-  private List<Student> students;
+  private final List<Student> students;
 
   public Cohort() {
     students = new ArrayList<>();
